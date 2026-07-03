@@ -1523,6 +1523,7 @@ body{
 }
 #chat-input{ flex:1; padding:8px 10px; border-radius:8px; border:1px solid #e6e9ee; outline:none; background-color: #ffffff; /* fondo claro para contraste / color: var(--text); / asegura color de texto visible / caret-color: var(--accent); / color del cursor (caret) / font-size:14px; line-height:1.2; -webkit-text-fill-color: var(--text); / fuerza en WebKit (autofill/otros) */ appearance: none; }
 
+<<<<<<< HEAD
 /* placeholder visible / #chat-input::placeholder{ color: #9ca3af; / gris opacity:1;} */ 
 
 /* si hay reglas globales que usan mix-blend-mode u opacidad, asegúrate */ #chat-input{ opacity:1; mix-blend-mode: normal; }
@@ -1682,3 +1683,8 @@ html:not(.dark) .platform-downloads .download-btn{background:#111827!important;c
     border-radius: 24px;
     display: block;
 }
+=======
+/* placeholder visible / #chat-input::placeholder{ color: #9ca3af; / gris */ opacity:1;}
+
+/* si hay reglas globales que usan mix-blend-mode u opacidad, asegúrate */ #chat-input{ opacity:1; mix-blend-mode: normal; }
+>>>>>>> 659dd88b5d9453eca0df0db9c372932647cbf2aa
