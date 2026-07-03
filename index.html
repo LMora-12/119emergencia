@@ -8,7 +8,15 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+ HEAD
     <script>tailwind.config = { darkMode: 'class', }</script>
+
+ HEAD
+    <script>tailwind.config = { darkMode: 'class', }</script>
+
+    <script>tailwind.config = {darkMode: 'class',}</script>
+>>>>>>> 659dd88b5d9453eca0df0db9c372932647cbf2aa
+>>>>>>> 01cb0412fb97a753a4f1251c8af18a3a32d6e9de
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,6 +37,11 @@
             </div>
             <ul class="hidden md:flex gap-9 items-center">
                 <li><a href="#features"
+ HEAD
+                        class="text-black dark:text-white hover:text-cyan-400 transition-all duration-300">Características</a>
+                </li>
+
+ HEAD
                         class="text-black dark:text-white hover:text-cyan-400 transition-all duration-300">Características</a>
                 </li>
                 <li><a href="#platform"
@@ -43,6 +56,26 @@
                 <li><a href="#contacto"
                         class="text-black dark:text-white hover:text-cyan-400 transition-all duration-300">Contacto</a>
                 </li>
+
+                        class="text-black dark:text-white hover:text-cyan-400 transition-all duration-300">Características</a></li>
+ 01cb0412fb97a753a4f1251c8af18a3a32d6e9de
+                <li><a href="#platform"
+                        class="text-black dark:text-white hover:text-cyan-400 transition-all duration-300">Plataforma</a>
+                </li>
+                <li><a href="#mobile"
+                        class="text-black dark:text-white hover:text-cyan-400 transition-all duration-300">App
+                        Móvil</a></li>
+                <li><a href="#testimonios"
+                        class="text-black dark:text-white hover:text-cyan-400 transition-all duration-300">Testimonios</a>
+                </li>
+                <li><a href="#contacto"
+ HEAD
+                        class="text-black dark:text-white hover:text-cyan-400 transition-all duration-300">Contacto</a>
+                </li>
+
+                        class="text-black dark:text-white hover:text-cyan-400 transition-all duration-300">Contacto</a></li>
+ 659dd88b5d9453eca0df0db9c372932647cbf2aa
+ 01cb0412fb97a753a4f1251c8af18a3a32d6e9de
             </ul>
 
             <div class="flex gap-3 items-center">
@@ -67,7 +100,15 @@ transition-all duration-300">
     </nav>
 
     <!-- Hero Section -->
+ HEAD
     <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 hero-flames-bg">
+
+ HEAD
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 hero-flames-bg">
+
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+ 659dd88b5d9453eca0df0db9c372932647cbf2aa
+ 01cb0412fb97a753a4f1251c8af18a3a32d6e9de
         <!-- Animated Background -->
         <div class="absolute inset-0 overflow-hidden">
             <div
@@ -128,6 +169,7 @@ transition-all duration-300">
                 </div>
             </div>
 
+ HEAD
             <!-- Right - Video / Old ecosystem preview -->
             <div class="relative h-[520px] hidden md:flex items-center justify-center hero-media-panel">
                 <div
@@ -152,6 +194,89 @@ transition-all duration-300">
                         </p>
                         <p class="text-gray-200 mt-1">Alertas, geolocalización, asignación de unidades, historial y
                             seguimiento operativo para estaciones de bomberos.</p>
+
+ HEAD
+            <!-- Right - Video / Old ecosystem preview -->
+            <div class="relative h-[520px] hidden md:flex items-center justify-center hero-media-panel">
+                <div
+                    class="absolute inset-0 bg-gradient-to-br from-red-600/30 via-orange-500/10 to-transparent rounded-[2rem] blur-2xl">
+                </div>
+                <div class="flame-shape flame-shape-1"></div>
+                <div class="flame-shape flame-shape-2"></div>
+                <div
+                    class="relative w-full overflow-hidden rounded-[2rem] border border-red-500/40 shadow-2xl shadow-red-500/20 bg-black">
+                    <div
+                        class="absolute top-4 left-4 z-20 px-4 py-2 rounded-full bg-red-600/90 text-white text-sm font-bold flex items-center gap-2">
+                        <i class="fas fa-fire-flame-curved"></i> Bomberos en acción
+                    </div>
+                    <div class="video-wrapper">
+                        <video class="video-bomberos" controls autoplay muted loop playsinline>
+                            <source src="assets/videos/video1.mp4" type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                    <div class="p-5 bg-gradient-to-r from-black via-gray-950 to-red-950/80">
+                        <p class="text-sm uppercase tracking-[0.25em] text-red-400 font-bold">Ecosistema 119 Emergencias
+                        </p>
+                        <p class="text-gray-200 mt-1">Alertas, geolocalización, asignación de unidades, historial y
+                            seguimiento operativo para estaciones de bomberos.</p>
+
+            <!-- Right - Dashboard Preview -->
+            <div class="relative h-[500px] hidden md:flex items-center justify-center">
+                <div class="absolute inset-0 bg-gradient-to-br from-cyan-500/20 to-transparent rounded-3xl blur-2xl">
+                </div>
+                <div
+                    class="relative w-full h-full bg-gradient-to-br from-gray-900 to-black border border-cyan-500/30 rounded-2xl overflow-hidden shadow-2xl shadow-cyan-500/20 transform hover:scale-105 transition-transform duration-500">
+                    <!-- Dashboard Content -->
+                    <div class="p-6 h-full flex flex-col">
+                        <div class="flex justify-between items-center mb-6">
+                            <span class="text-sm font-semibold text-cyan-400">CENTRO DE MONITOREO</span>
+                            <div class="flex gap-2">
+                                <div class="w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
+                                <div class="w-3 h-3 bg-yellow-500 rounded-full animate-pulse"
+                                    style="animation-delay: 0.3s"></div>
+                                <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse"
+                                    style="animation-delay: 0.6s"></div>
+                            </div>
+                        </div>
+
+                        <!-- Mini Map -->
+                        <div
+                            class="flex-1 bg-black/50 rounded-lg mb-4 relative overflow-hidden border border-cyan-500/20">
+                            <div class="absolute inset-0 bg-grid-pattern opacity-10"></div>
+                            <svg class="w-full h-full" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+                                <defs>
+                                    <radialGradient id="pulse1">
+                                        <stop offset="0%" stop-color="#00ff88" stop-opacity="0.8" />
+                                        <stop offset="100%" stop-color="#00ff88" stop-opacity="0" />
+                                    </radialGradient>
+                                </defs>
+                                <!-- Animated Pulses -->
+                                <circle cx="100" cy="80" r="20" fill="url(#pulse1)" class="animate-pulse"></circle>
+                                <circle cx="280" cy="150" r="25" fill="url(#pulse1)" class="animate-pulse"
+                                    style="animation-delay: 0.2s"></circle>
+                                <circle cx="150" cy="220" r="15" fill="url(#pulse1)" class="animate-pulse"
+                                    style="animation-delay: 0.4s"></circle>
+                            </svg>
+                        </div>
+
+                        <!-- Stats Row -->
+                        <div class="grid grid-cols-3 gap-3">
+                            <div class="bg-cyan-500/10 border border-cyan-500/30 rounded-lg p-3">
+                                <div class="text-2xl font-bold text-cyan-400">47</div>
+                                <div class="text-xs text-gray-400">Activas</div>
+                            </div>
+                            <div class="bg-yellow-500/10 border border-yellow-500/30 rounded-lg p-3">
+                                <div class="text-2xl font-bold text-yellow-400">12</div>
+                                <div class="text-xs text-gray-400">En tránsito</div>
+                            </div>
+                            <div class="bg-green-500/10 border border-green-500/30 rounded-lg p-3">
+                                <div class="text-2xl font-bold text-green-400">156</div>
+                                <div class="text-xs text-gray-400">Resueltas</div>
+                            </div>
+                        </div>
+ 659dd88b5d9453eca0df0db9c372932647cbf2aa
+ 01cb0412fb97a753a4f1251c8af18a3a32d6e9de
                     </div>
                 </div>
             </div>
@@ -178,7 +303,15 @@ transition-all duration-300">
                         class="relative bg-gradient-to-br from-gray-900 to-black border border-cyan-500/20 rounded-2xl p-8 h-full backdrop-blur-sm hover:border-cyan-500/50 transition-all duration-300">
                         <div
                             class="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-xl flex items-center justify-center mb-6 text-xl">
+ HEAD
                             <i class="fa-solid fa-bell"></i>
+
+ HEAD
+                            <i class="fa-solid fa-bell"></i>
+
+                            <i class="fas fa-bell-ring"></i>
+ 659dd88b5d9453eca0df0db9c372932647cbf2aa
+ 01cb0412fb97a753a4f1251c8af18a3a32d6e9de
                         </div>
                         <h3 class="text-2xl font-bold mb-3">Gestión de Alertas</h3>
                         <p class="text-gray-400 mb-4">Administración en tiempo real de emergencias y eventos críticos
@@ -299,6 +432,12 @@ transition-all duration-300">
     </section>
 
     <!-- Platform Section -->
+ HEAD
+    <section id="platform" class="relative py-52 overflow-hidden devices-section">
+        <div class="absolute inset-0 bg-gradient-to-b from-red-500/10 via-transparent to-blue-500/5"></div>
+        <div class="flame-shape-1"></div>
+
+ HEAD
     <section id="platform" class="relative py-52 overflow-hidden devices-section">
         <div class="absolute inset-0 bg-gradient-to-b from-red-500/10 via-transparent to-blue-500/5"></div>
         <div class="flame-shape-1"></div>
@@ -387,6 +526,183 @@ transition-all duration-300">
                                 <div>WEB</div>
                             </div>
                         </a>
+
+    <section id="platform" class="relative py-52 overflow-hidden">
+        <div class="absolute inset-0">
+            <div
+                class="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-96 bg-blue-500 rounded-full mix-blend-screen filter blur-3xl opacity-10">
+            </div>
+        </div>
+ 01cb0412fb97a753a4f1251c8af18a3a32d6e9de
+
+        <div class="relative max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 space-y-4">
+                <span
+                    class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-600/10 text-red-500 border border-red-500/25 font-bold uppercase tracking-wider text-sm">
+                    <i class="fas fa-fire"></i> Plataforma operativa real
+                </span>
+                <h2 class="text-5xl md:text-6xl font-black space-grotesk">Plataforma 119 Emergencias</h2>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto">Integra la aplicación ciudadana, el panel web para la
+                    estación y el seguimiento de cada alerta desde un flujo claro: reportar, validar, asignar, atender y
+                    cerrar.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-10 items-center">
+                <div class="relative device-stage">
+                    <img src="img/pc-dashboard-119.png" alt="Panel web de 119 Emergencias en computador"
+                        class="pc-mockup">
+                    <img src="img/celular-app-119.png" alt="Aplicación móvil 119 Emergencias" class="phone-mockup">
+                </div>
+
+                <div class="grid sm:grid-cols-2 gap-5">
+                    <div class="ecosystem-card">
+                        <div class="ecosystem-icon"><i class="fas fa-triangle-exclamation"></i></div>
+                        <h3>Alertas clasificadas</h3>
+                        <p>Prioriza incendios, rescates, emergencias médicas y reportes ciudadanos para reducir
+                            confusiones operativas.</p>
+                    </div>
+                    <div class="ecosystem-card">
+                        <div class="ecosystem-icon"><i class="fas fa-location-crosshairs"></i></div>
+                        <h3>Ubicación precisa</h3>
+                        <p>Centraliza la localización del incidente y facilita el desplazamiento de las unidades
+                            disponibles.</p>
+                    </div>
+                    <div class="ecosystem-card">
+                        <div class="ecosystem-icon"><i class="fas fa-helmet-safety"></i></div>
+                        <h3>Asignación de unidades</h3>
+                        <p>Permite identificar quién atiende la emergencia, su estado y los tiempos aproximados de
+                            respuesta.</p>
+                    </div>
+                    <div class="ecosystem-card">
+                        <div class="ecosystem-icon"><i class="fas fa-file-shield"></i></div>
+                        <h3>Historial y trazabilidad</h3>
+                        <p>Guarda reportes para análisis, auditoría, estadísticas institucionales y mejora continua del
+                            servicio.</p>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-2 app-downloads platform-downloads mt-10">
+                    <div class="platform-download-header">
+                        <span class="download-kicker"><i class="fas fa-download"></i> Descargas oficiales</span>
+                        <h3>Acceso al ecosistema 119 Emergencias</h3>
+                        <p>Centraliza desde la sección Plataforma las opciones de descarga y acceso que necesita el
+                            ciudadano, el personal operativo y la administración web.</p>
+                    </div>
+                    <div class="download-buttons">
+                        <a href="#" class="download-btn ios" aria-label="Descargar 119 Emergencias en App Store">
+                            <i class="fab fa-apple"></i>
+                            <div>
+                                <div>Descargar en</div>
+                                <div>App Store</div>
+                            </div>
+                        </a>
+                        <a href="#" class="download-btn android" aria-label="Descargar 119 Emergencias en Google Play">
+                            <i class="fab fa-google-play"></i>
+                            <div>
+                                <div>Descargar en</div>
+                                <div>Google Play</div>
+                            </div>
+                        </a>
+                        <a href="#" class="download-btn apk"
+                            aria-label="Descargar directa de la aplicación 119 Emergencias V2.0.0">
+                            <i class="fas fa-file-arrow-down"></i>
+                            <div>
+                                <div>Descarga directa</div>
+                                <div>APP V2.0.0</div>
+                            </div>
+                        </a>
+                        <a href="#" class="download-btn web"
+                            aria-label="Acceder a administración online 119 Emergencias">
+                            <i class="fas fa-desktop"></i>
+                            <div>
+                                <div>Administración online</div>
+                                <div>WEB</div>
+                            </div>
+ HEAD
+                        </a>
+
+
+                            <!-- Live Map -->
+                            <div class="bg-black/50 border border-cyan-500/20 rounded-xl p-6 relative overflow-hidden">
+                                <h4 class="text-lg font-semibold mb-4">Mapa en Tiempo Real</h4>
+                                <div
+                                    class="relative h-48 bg-gradient-to-br from-cyan-900/20 to-blue-900/20 rounded-lg border border-cyan-500/20 overflow-hidden">
+                                    <svg class="w-full h-full" viewBox="0 0 400 300"
+                                        preserveAspectRatio="xMidYMid slice">
+                                        <!-- Map -->
+                                        <defs>
+                                            <radialGradient id="pulse-grad">
+                                                <stop offset="0%" stop-color="#00ff88" stop-opacity="1" />
+                                                <stop offset="100%" stop-color="#00ff88" stop-opacity="0" />
+                                            </radialGradient>
+                                        </defs>
+
+                                        <!-- Grid -->
+                                        <g opacity="0.1" stroke="white">
+                                            <line x1="0" y1="50" x2="400" y2="50" />
+                                            <line x1="0" y1="100" x2="400" y2="100" />
+                                            <line x1="0" y1="150" x2="400" y2="150" />
+                                            <line x1="0" y1="200" x2="400" y2="200" />
+                                            <line x1="0" y1="250" x2="400" y2="250" />
+                                            <line x1="50" y1="0" x2="50" y2="300" />
+                                            <line x1="100" y1="0" x2="100" y2="300" />
+                                            <line x1="150" y1="0" x2="150" y2="300" />
+                                            <line x1="200" y1="0" x2="200" y2="300" />
+                                            <line x1="250" y1="0" x2="250" y2="300" />
+                                            <line x1="300" y1="0" x2="300" y2="300" />
+                                            <line x1="350" y1="0" x2="350" y2="300" />
+                                        </g>
+
+                                        <!-- Animated Units -->
+                                        <circle cx="80" cy="80" r="15" fill="url(#pulse-grad)" class="animate-pulse">
+                                        </circle>
+                                        <circle cx="200" cy="120" r="12" fill="url(#pulse-grad)" class="animate-pulse"
+                                            style="animation-delay: 0.2s"></circle>
+                                        <circle cx="300" cy="200" r="10" fill="url(#pulse-grad)" class="animate-pulse"
+                                            style="animation-delay: 0.4s"></circle>
+                                        <circle cx="150" cy="250" r="13" fill="url(#pulse-grad)" class="animate-pulse"
+                                            style="animation-delay: 0.6s"></circle>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Alerts Feed -->
+                        <div class="mt-6 bg-black/50 border border-cyan-500/20 rounded-xl p-6">
+                            <h4 class="text-lg font-semibold mb-4">Alertas en Vivo</h4>
+                            <div class="space-y-3">
+                                <div
+                                    class="flex items-start gap-4 p-3 bg-red-500/10 border border-red-500/20 rounded-lg">
+                                    <div class="w-2 h-2 bg-red-500 rounded-full mt-2 animate-pulse"></div>
+                                    <div class="flex-1">
+                                        <p class="text-sm font-semibold">Emergencia Médica Crítica</p>
+                                        <p class="text-xs text-gray-400">Calle Principal 123 - Hace 2 minutos</p>
+                                    </div>
+                                    <span class="text-xs text-red-400 font-semibold">CRÍTICO</span>
+                                </div>
+                                <div
+                                    class="flex items-start gap-4 p-3 bg-yellow-500/10 border border-yellow-500/20 rounded-lg">
+                                    <div class="w-2 h-2 bg-yellow-500 rounded-full mt-2 animate-pulse"
+                                        style="animation-delay: 0.2s"></div>
+                                    <div class="flex-1">
+                                        <p class="text-sm font-semibold">Incendio Estructural</p>
+                                        <p class="text-xs text-gray-400">Av. Comercial 456 - Hace 5 minutos</p>
+                                    </div>
+                                    <span class="text-xs text-yellow-400 font-semibold">ALTO</span>
+                                </div>
+                                <div
+                                    class="flex items-start gap-4 p-3 bg-green-500/10 border border-green-500/20 rounded-lg">
+                                    <div class="w-2 h-2 bg-green-500 rounded-full mt-2 animate-pulse"
+                                        style="animation-delay: 0.4s"></div>
+                                    <div class="flex-1">
+                                        <p class="text-sm font-semibold">Rescate en Altura</p>
+                                        <p class="text-xs text-gray-400">Edificio Central 789 - Hace 8 minutos</p>
+                                    </div>
+                                    <span class="text-xs text-green-400 font-semibold">MEDIO</span>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -394,6 +710,11 @@ transition-all duration-300">
     </section>
 
     <!-- Mobile App Section -->
+ HEAD
+    <section id="mobile" class="relative py-32 overflow-hidden mobile-red-section">
+        <div class="absolute inset-0 bg-gradient-to-t from-red-500/10 to-transparent"></div>
+
+ HEAD
     <section id="mobile" class="relative py-32 overflow-hidden mobile-red-section">
         <div class="absolute inset-0 bg-gradient-to-t from-red-500/10 to-transparent"></div>
         <div class="relative max-w-7xl mx-auto px-6">
@@ -442,6 +763,115 @@ transition-all duration-300">
                         class="mobile-phone-showcase">
                     <div class="floating-badge badge-alert"><i class="fas fa-bell"></i> Alerta recibida</div>
                     <div class="floating-badge badge-unit"><i class="fas fa-truck-medical"></i> Unidad asignada</div>
+
+    <section id="mobile" class="relative py-32 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-t from-red-500/5 to-transparent"></div>
+
+
+        <div class="relative max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-8">
+                    <div class="space-y-4">
+                        <span
+                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-600/10 text-red-500 border border-red-500/25 font-bold uppercase tracking-wider text-sm"><i
+                                class="fas fa-mobile-screen-button"></i> App ciudadana</span>
+                        <h2 class="text-5xl md:text-6xl font-black space-grotesk">Reporte rápido desde el celular</h2>
+                        <p class="text-xl text-gray-400">La comunidad reporta una emergencia, comparte ubicación y
+                            permite que la estación reciba información organizada para actuar con mayor velocidad.</p>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="mobile-feature-row"><span>🔥</span>
+                            <div>
+                                <h3>Incendios y auxilios</h3>
+                                <p>Registro de tipo de emergencia, datos básicos y evidencia cuando aplique.</p>
+                            </div>
+                        </div>
+                        <div class="mobile-feature-row"><span>📍</span>
+                            <div>
+                                <h3>Geolocalización</h3>
+                                <p>Ubicación del ciudadano para que la estación pueda validar el punto de atención.</p>
+                            </div>
+                        </div>
+                        <div class="mobile-feature-row"><span>🚒</span>
+                            <div>
+                                <h3>Seguimiento operativo</h3>
+                                <p>Estados de alerta para saber si fue recibida, asignada, atendida o cerrada.</p>
+                            </div>
+                        </div>
+                        <div class="mobile-feature-row"><span>🧾</span>
+                            <div>
+                                <h3>Historial de reportes</h3>
+                                <p>Consulta posterior de eventos para usuarios y personal autorizado.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+ HEAD
+                <div class="relative flex justify-center items-center min-h-[560px]">
+                    <div class="absolute w-80 h-80 bg-red-500/20 rounded-full blur-3xl"></div>
+                    <img src="img/celular-app-119.png" alt="Pantalla de la aplicación 119 Emergencias"
+                        class="mobile-phone-showcase">
+                    <div class="floating-badge badge-alert"><i class="fas fa-bell"></i> Alerta recibida</div>
+                    <div class="floating-badge badge-unit"><i class="fas fa-truck-medical"></i> Unidad asignada</div>
+
+                <!-- Right - Phone Mockups -->
+                <div class="relative h-[600px] flex items-center justify-center">
+                    <!-- Phone 1 -->
+                    <div
+                        class="absolute left-0 w-56 h-96 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-3xl p-3 shadow-2xl shadow-cyan-500/50 transform -rotate-12 hover:rotate-0 transition-transform duration-500 z-10">
+                        <div class="w-full h-full bg-black rounded-2xl overflow-hidden flex flex-col">
+                            <div class="flex justify-between items-center px-6 pt-3 pb-2 text-white text-xs">
+                                <span>9:41</span>
+                                <div class="flex gap-1">
+                                    <i class="fas fa-signal"></i>
+                                    <i class="fas fa-wifi"></i>
+                                    <i class="fas fa-battery-full"></i>
+                                </div>
+                            </div>
+                            <div
+                                class="flex-1 bg-gradient-to-br from-gray-900 to-black flex flex-col items-center justify-center p-4 text-center">
+                                <i class="fas fa-location-dot text-cyan-400 text-4xl mb-3"></i>
+                                <p class="text-white font-semibold text-sm mb-2">En Vivo</p>
+                                <p class="text-gray-400 text-xs">Compartiendo ubicación</p>
+                                <div class="mt-4 w-full space-y-2">
+                                    <div class="h-1 bg-cyan-500/30 rounded-full"></div>
+                                    <div class="h-1 bg-cyan-500/50 rounded-full w-3/4 ml-auto"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Phone 2 -->
+                    <div
+                        class="absolute right-0 w-56 h-96 bg-gradient-to-br from-red-400 to-red-600 rounded-3xl p-3 shadow-2xl shadow-red-500/50 transform rotate-12 hover:rotate-0 transition-transform duration-500 z-20">
+                        <div class="w-full h-full bg-black rounded-2xl overflow-hidden flex flex-col">
+                            <div class="flex justify-between items-center px-6 pt-3 pb-2 text-white text-xs">
+                                <span>9:41</span>
+                                <div class="flex gap-1">
+                                    <i class="fas fa-signal"></i>
+                                    <i class="fas fa-wifi"></i>
+                                    <i class="fas fa-battery-full"></i>
+                                </div>
+                            </div>
+                            <div
+                                class="flex-1 bg-gradient-to-br from-gray-900 to-black flex flex-col items-center justify-center p-4">
+                                <div
+                                    class="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center mb-4 animate-pulse">
+                                    <i class="fas fa-bell-ring text-white text-2xl"></i>
+                                </div>
+                                <p class="text-white font-bold text-sm mb-2">Emergencia Detectada</p>
+                                <p class="text-gray-400 text-xs text-center">Unidad más cercana enviada</p>
+                                <div class="mt-4 w-full">
+                                    <button class="w-full py-2 bg-red-500 rounded-lg text-white text-xs font-semibold">
+                                        Ver Detalles
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -563,6 +993,11 @@ transition-all duration-300">
 
 
     <!-- Enterprise Section -->
+ HEAD
+    <section class="relative py-24 overflow-hidden enterprise-red-section">
+        <div class="absolute inset-0 bg-gradient-to-r from-red-500/10 to-blue-500/5"></div>
+
+ HEAD
     <section class="relative py-24 overflow-hidden enterprise-red-section">
         <div class="absolute inset-0 bg-gradient-to-r from-red-500/10 to-blue-500/5"></div>
 
@@ -580,10 +1015,86 @@ transition-all duration-300">
                             <div class="mini-kpi"><strong>2.8 min</strong><span>validación</span></div>
                             <div class="mini-kpi"><strong>24/7</strong><span>operación</span></div>
                             <div class="mini-kpi"><strong>100%</strong><span>trazable</span></div>
+
+    <section class="relative py-24 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-blue-500/5 to-cyan-500/5"></div>
+
+
+        <div class="relative max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="relative flex items-center justify-center">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-br from-red-500/20 to-orange-500/10 rounded-2xl blur-3xl">
+                    </div>
+                    <div
+ HEAD
+                        class="relative rounded-3xl overflow-hidden border border-red-500/30 bg-white/5 p-4 shadow-2xl shadow-red-500/10">
+                        <img src="img/pc-dashboard-119.png"
+                            alt="Dashboard web para gestión de alertas de 119 Emergencias" class="w-full rounded-2xl">
+                        <div class="grid grid-cols-3 gap-3 mt-4">
+                            <div class="mini-kpi"><strong>2.8 min</strong><span>validación</span></div>
+                            <div class="mini-kpi"><strong>24/7</strong><span>operación</span></div>
+                            <div class="mini-kpi"><strong>100%</strong><span>trazable</span></div>
+
+                        class="relative w-full h-full bg-gradient-to-br from-gray-900 to-black border border-blue-500/30 rounded-2xl overflow-hidden shadow-2xl">
+                        <!-- Command Center UI -->
+                        <div class="p-6 h-full flex flex-col">
+                            <div class="flex items-center justify-between mb-6 pb-6 border-b border-blue-500/20">
+                                <h4 class="text-lg font-semibold">Centro de Comando 119</h4>
+                                <div class="flex gap-2">
+                                    <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+                                    <span class="text-xs text-gray-400">En línea</span>
+                                </div>
+                            </div>
+
+                            <!-- Mini Stats -->
+                            <div class="grid grid-cols-2 gap-3 mb-6">
+                                <div class="bg-cyan-500/10 border border-cyan-500/30 rounded-lg p-3">
+                                    <p class="text-2xl font-bold text-cyan-400">156</p>
+                                    <p class="text-xs text-gray-400">Unidades</p>
+                                </div>
+                                <div class="bg-red-500/10 border border-red-500/30 rounded-lg p-3">
+                                    <p class="text-2xl font-bold text-red-400">47</p>
+                                    <p class="text-xs text-gray-400">Emergencias</p>
+                                </div>
+                            </div>
+
+                            <!-- Team Members -->
+                            <div class="flex-1 space-y-2 mb-4">
+                                <p class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Personal
+                                    Conectado</p>
+                                <div class="space-y-2 max-h-32 overflow-y-auto">
+                                    <div
+                                        class="flex items-center gap-2 p-2 bg-green-500/10 rounded border border-green-500/20">
+                                        <div class="w-2 h-2 bg-green-500 rounded-full"></div>
+                                        <span class="text-sm">Carlos Mendoza - Comandante</span>
+                                    </div>
+                                    <div
+                                        class="flex items-center gap-2 p-2 bg-green-500/10 rounded border border-green-500/20">
+                                        <div class="w-2 h-2 bg-green-500 rounded-full"></div>
+                                        <span class="text-sm">Ana García - Despachadora</span>
+                                    </div>
+                                    <div
+                                        class="flex items-center gap-2 p-2 bg-green-500/10 rounded border border-green-500/20">
+                                        <div class="w-2 h-2 bg-green-500 rounded-full"></div>
+                                        <span class="text-sm">Juan López - Técnico</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Alert -->
+                            <div class="p-3 bg-yellow-500/10 border border-yellow-500/30 rounded-lg">
+                                <p class="text-xs font-semibold text-yellow-400">⚠ Alerta de Mantenimiento</p>
+                                <p class="text-xs text-gray-400 mt-1">1 unidad requiere revisión</p>
+                            </div>
+
                         </div>
                     </div>
                 </div>
 
+ 
+
+ 
                 <div class="space-y-8">
                     <div>
                         <span
@@ -620,13 +1131,66 @@ transition-all duration-300">
                             <div>
                                 <h3>Escalable por ciudad</h3>
                                 <p>Preparado para crecer por estaciones, usuarios, unidades y zonas de cobertura.</p>
+
+                <!-- Right Content -->
+
+                <div class="space-y-8">
+                    <div>
+                        <span
+                            class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-600/10 text-red-500 border border-red-500/25 font-bold uppercase tracking-wider text-sm"><i
+                                class="fas fa-building-shield"></i> Para instituciones</span>
+                        <h2 class="text-5xl md:text-6xl font-black space-grotesk mb-4 mt-4">Ideal para Bomberos y
+                            Municipios</h2>
+                        <p class="text-xl text-gray-400">Solución empresarial diseñada para estaciones de bomberos,
+                            alcaldías, municipios y centros de respuesta que necesitan ordenar sus alertas y mejorar la
+                            trazabilidad.</p>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="enterprise-point"><i class="fas fa-check"></i>
+                            <div>
+                                <h3>Operación por roles</h3>
+                                <p>Administrador, despachador, comandante y personal operativo con permisos claros.</p>
+                            </div>
+                        </div>
+                        <div class="enterprise-point"><i class="fas fa-check"></i>
+                            <div>
+                                <h3>Reportes institucionales</h3>
+                                <p>Información organizada para estadísticas, tiempos de atención y revisión de
+                                    incidentes.</p>
+                            </div>
+                        </div>
+                        <div class="enterprise-point"><i class="fas fa-check"></i>
+                            <div>
+                                <h3>Soporte y capacitación</h3>
+                                <p>Acompañamiento para implementar el flujo de trabajo en cada estación.</p>
+                            </div>
+                        </div>
+                        <div class="enterprise-point"><i class="fas fa-check"></i>
+                            <div>
+
+                                <h3>Escalable por ciudad</h3>
+                                <p>Preparado para crecer por estaciones, usuarios, unidades y zonas de cobertura.</p>
+
+                                <h3 class="font-semibold text-lg mb-1">Capacitación Completa</h3>
+                                <p class="text-gray-400">Entrenamiento exhaustivo para todo tu personal.</p>
+
                             </div>
                         </div>
                     </div>
 
                     <button
+
                         class="px-8 py-4 bg-gradient-to-r from-red-600 to-orange-500 rounded-xl font-semibold text-lg hover:shadow-2xl hover:shadow-red-500/50 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2 text-white">
                         <i class="fas fa-fire-extinguisher"></i> Contactar a Ventas Empresariales
+
+
+                        class="px-8 py-4 bg-gradient-to-r from-red-600 to-orange-500 rounded-xl font-semibold text-lg hover:shadow-2xl hover:shadow-red-500/50 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2 text-white">
+                        <i class="fas fa-fire-extinguisher"></i> Contactar a Ventas Empresariales
+
+                        class="px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-xl font-semibold text-lg hover:shadow-2xl hover:shadow-blue-500/50 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2">
+                        <i class="fas fa-building"></i> Contactar a Ventas Empresariales
+
                     </button>
                 </div>
             </div>
@@ -634,6 +1198,11 @@ transition-all duration-300">
     </section>
 
     <!-- Statistics Section -->
+
+    <section class="relative py-24 overflow-hidden impact-section">
+        <div class="absolute inset-0 bg-gradient-to-t from-red-500/10 to-transparent"></div>
+
+
     <section class="relative py-24 overflow-hidden impact-section">
         <div class="absolute inset-0 bg-gradient-to-t from-red-500/10 to-transparent"></div>
         <div class="relative max-w-7xl mx-auto px-6">
@@ -717,6 +1286,136 @@ transition-all duration-300">
                     <button class="active" type="button" aria-label="Testimonio 1"></button>
                     <button type="button" aria-label="Testimonio 2"></button>
                     <button type="button" aria-label="Testimonio 3"></button>
+
+    <section class="relative py-24 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-t from-cyan-500/10 to-transparent"></div>
+
+
+        <div class="relative max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 space-y-4">
+                <span
+                    class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-600/10 text-red-500 border border-red-500/25 font-bold uppercase tracking-wider text-sm"><i
+                        class="fas fa-chart-line"></i> Impacto operativo</span>
+                <h2 class="text-5xl md:text-6xl font-black space-grotesk">Impacto Verificado</h2>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto">Indicadores realistas para una estación que
+                    digitaliza el reporte ciudadano, la validación de alertas y la asignación de unidades.</p>
+            </div>
+
+            <div class="grid md:grid-cols-4 gap-6">
+                <div class="impact-card">
+                    <div class="impact-emoji">⏱️</div>
+                    <div class="text-5xl font-black text-red-400 mb-2 counter" data-target="35">
+                        <5min </div>
+                            <p>reducción estimada en tiempos de validación al centralizar reportes.</p>
+                    </div>
+                    <div class="impact-card">
+                        <div class="impact-emoji">🚒</div>
+                        <div class="text-5xl font-black text-red-400 mb-2 counter" data-target="24">0</div>
+                        <p>operación continua para recibir alertas y hacer seguimiento diario.</p>
+                    </div>
+                    <div class="impact-card">
+                        <div class="impact-emoji">📍</div>
+                        <div class="text-5xl font-black text-red-400 mb-2 counter" data-target="90">0</div>
+                        <p>de reportes pueden llegar con ubicación para orientar mejor la atención.</p>
+                    </div>
+                    <div class="impact-card">
+                        <div class="impact-emoji">📊</div>
+                        <div class="text-5xl font-black text-red-400 mb-2 counter" data-target="100">0</div>
+                        <p>trazabilidad de eventos: recibido, asignado, atendido, cerrado y consultado.</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonios" class="relative py-52 overflow-hidden testimonials-section">
+        <div class="absolute inset-0 bg-gradient-to-b from-red-500/10 to-transparent"></div>
+        <div class="relative max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 space-y-4">
+                <span
+                    class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-600/10 text-red-500 border border-red-500/25 font-bold uppercase tracking-wider text-sm"><i
+                        class="fas fa-comments"></i> Voces del ecosistema</span>
+                <h2 class="text-5xl md:text-6xl font-black space-grotesk">Lo que dicen nuestros clientes</h2>
+                <p class="text-xl text-gray-400">Experiencias de equipos que necesitan una gestión de emergencias más
+                    clara, rápida y trazable.</p>
+            </div>
+
+            <div class="testimonial-carousel" aria-label="Carrusel de testimonios">
+                <button class="carousel-btn prev" type="button" aria-label="Testimonio anterior"><i
+                        class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-track">
+                    <article class="testimonial-slide is-active">
+                        <div class="testimonial-avatar">🚒</div>
+                        <h3>Carlos Mendoza</h3><span>Comandante, Estación de Bomberos Central</span>
+                        <div class="stars">★★★★★</div>
+                        <p>“Con 119 Emergencias logramos ordenar la recepción de alertas, ver prioridades y asignar
+                            unidades con mayor claridad.”</p>
+                    </article>
+                    <article class="testimonial-slide">
+                        <div class="testimonial-avatar">🏛️</div>
+                        <h3>María García</h3><span>Directora de Gestión del Riesgo Municipal</span>
+                        <div class="stars">★★★★★</div>
+                        <p>“La plataforma facilita el seguimiento de cada caso y mejora la comunicación entre
+                            ciudadanía, despacho y equipos operativos.”</p>
+                    </article>
+                    <article class="testimonial-slide">
+                        <div class="testimonial-avatar">📍</div>
+                        <h3>Juan López</h3><span>Jefe Operativo, Centro de Crisis</span>
+                        <div class="stars">★★★★★</div>
+                        <p>“La geolocalización y el historial ayudan a revisar decisiones, tiempos y recursos usados en
+                            cada emergencia.”</p>
+                    </article>
+                </div>
+
+                <button class="carousel-btn next" type="button" aria-label="Siguiente testimonio"><i
+                        class="fas fa-chevron-right"></i></button>
+                <div class="carousel-dots" role="tablist" aria-label="Seleccionar testimonio">
+                    <button class="active" type="button" aria-label="Testimonio 1"></button>
+                    <button type="button" aria-label="Testimonio 2"></button>
+                    <button type="button" aria-label="Testimonio 3"></button>
+
+
+                <!-- Testimonial 2 -->
+                <div
+                    class="bg-gradient-to-br from-gray-900 to-black border border-blue-500/20 rounded-2xl p-8 hover:border-blue-500/50 transition-all duration-300">
+                    <div class="flex gap-4 mb-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-blue-400 to-cyan-500 rounded-full"></div>
+                        <div>
+                            <p class="font-semibold">María García</p>
+                            <p class="text-sm text-gray-400">Directora de Emergencias, Municipalidad</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-300">"La plataforma es intuitiva y potente. Nuestro equipo la domó en días. El
+                        soporte técnico es excelente y siempre disponible."</p>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div
+                    class="bg-gradient-to-br from-gray-900 to-black border border-red-500/20 rounded-2xl p-8 hover:border-red-500/50 transition-all duration-300">
+                    <div class="flex gap-4 mb-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-red-400 to-pink-500 rounded-full"></div>
+                        <div>
+                            <p class="font-semibold">Juan López</p>
+                            <p class="text-sm text-gray-400">Jefe Operativo, Centro de Crisis</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-1 mb-4">
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                        <i class="fas fa-star text-yellow-400"></i>
+                    </div>
+                    <p class="text-gray-300">"La automatización inteligente nos permite manejar el doble de emergencias
+                        con el mismo personal. Inversión que se paga sola."</p>
+
                 </div>
             </div>
         </div>
@@ -960,7 +1659,14 @@ transition-all duration-300">
                             class="w-10 h-10 bg-cyan-500/10 border border-cyan-500/20 rounded-lg flex items-center justify-center hover:border-cyan-500/50 transition-all">
                             <i class="fab fa-linkedin text-cyan-400"></i>
                         </a>
+
                         <a href="https://www.instagram.com/119emergencias/" target="_blank" rel="noopener"
+
+
+                        <a href="https://www.instagram.com/119emergencias/" target="_blank" rel="noopener"
+
+                        <a href="#"
+
                             class="w-10 h-10 bg-cyan-500/10 border border-cyan-500/20 rounded-lg flex items-center justify-center hover:border-cyan-500/50 transition-all">
                             <i class="fab fa-instagram text-cyan-400"></i>
                         </a>
@@ -979,6 +1685,10 @@ transition-all duration-300">
             </div>
         </div>
     </footer>
+
+
+    
+
 
     <script>
 
@@ -1010,11 +1720,8 @@ transition-all duration-300">
         });
 
     </script>
-
-
-
-
-
+    
+</script>
     <script>
         // Carrusel de testimonios 119 Emergencias
         (function () {
@@ -1035,6 +1742,9 @@ transition-all duration-300">
             setInterval(() => showSlide(current + 1), 6000);
         })();
     </script>
+
+
+
 
     <script src="script.js"></script>
 </body>
